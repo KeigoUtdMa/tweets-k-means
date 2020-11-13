@@ -59,7 +59,7 @@ def kmeans(id, centroids, terms_all, l, k = 25):
             if (centroids1[i] == centroids[i]):
                 sum = sum + 1
         if (sum == k):
-            break;
+            break
         centroids = copy.deepcopy(centroids1)
 
     output(cluster, k, id)
